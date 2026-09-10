@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0"
     >
-
     <title>My Weather API</title>
-
     <link
         rel="stylesheet"
         href="style.css"
     >
-
 </head>
-
 
 <body>
 
@@ -27,106 +20,66 @@
     <div class="comic-shape shape-one"></div>
     <div class="comic-shape shape-two"></div>
     <div class="comic-shape shape-three"></div>
-
-
     <main class="weather-app">
 
         <!-- Comic Header -->
 
         <div class="comic-header">
-
             <div class="burst">
                 WEATHER!
             </div>
-
             <h1>MY WEATHER API</h1>
-
             <div class="subtitle">
                 YOUR DAILY WEATHER HERO
             </div>
-
         </div>
-
-
         <!-- API KEY SECTION -->
-
         <section class="input-card">
-
             <label for="apiKeyInput">
                 🔑 API KEY
             </label>
-
             <input
                 type="text"
                 id="apiKeyInput"
                 placeholder="ENTER YOUR API KEY"
                 autocomplete="off"
             >
-
         </section>
-
-
         <!-- CITY SEARCH -->
-
         <section class="search-card">
-
             <label for="cityInput">
                 🌎 CITY
             </label>
-
             <div class="search-box">
-
                 <input
                     type="text"
                     id="cityInput"
                     placeholder="ENTER CITY NAME"
                     autocomplete="off"
                 >
-
                 <button id="searchBtn">
                     SEARCH!
                 </button>
-
             </div>
-
         </section>
-
-
         <!-- WEATHER RESULT -->
-
         <section id="weatherResult" class="weather-result">
-
             <div class="welcome">
-
                 <div class="weather-icon">
                     ☀️
                 </div>
-
                 <h2>READY, HERO?</h2>
-
                 <p>
                     ENTER YOUR API KEY AND CITY,
                     THEN HIT SEARCH!
                 </p>
-
             </div>
-
         </section>
-
-
         <!-- Comic Footer -->
-
         <div class="comic-footer">
-
             <span>⚡ POWERED BY YOUR OWN DATA ⚡</span>
-
         </div>
-
     </main>
-
-
     <script src="script.js"></script>
-
 </body>
-
 </html>
