@@ -1,0 +1,36 @@
+{
+    "Ahmedabad": {
+        "temperature": 32,
+        "weather": "Sunny",
+        "humidity": 45,
+        "windSpeed": 12
+    },
+
+    "Mumbai": {
+        "temperature": 29,
+        "weather": "Cloudy",
+        "humidity": 78,
+        "windSpeed": 15
+    },
+
+    "Delhi": {
+        "temperature": 35,
+        "weather": "Clear",
+        "humidity": 40,
+        "windSpeed": 10
+    },
+
+    "Bangalore": {
+        "temperature": 26,
+        "weather": "Rainy",
+        "humidity": 70,
+        "windSpeed": 8
+    },
+
+    "Rajkot": {
+        "temperature": 34,
+        "weather": "Sunny",
+        "humidity": 38,
+        "windSpeed": 14
+    }
+}
